@@ -4,8 +4,8 @@
 #include "esp_log.h"
 
 
-static const adc1_channel_t channel = ADC1_CHANNEL_7;
-static esp_adc_cal_characteristics_t adc_chars;
+//static const adc1_channel_t channel = ADC1_CHANNEL_7;
+//static esp_adc_cal_characteristics_t adc_chars;
 
 #define NUMBER_OF_SAMPLES 100
 
