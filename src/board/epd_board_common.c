@@ -1,7 +1,10 @@
-#include "driver/adc.h"
+//#include "driver/adc.h"
+#include "esp_adc/adc_oneshot.h"
+#include "esp_adc/adc_continuous.h"
 #include "epd_board.h"
 #include "esp_adc_cal.h"
 #include "esp_log.h"
+
 
 static const adc1_channel_t channel = ADC1_CHANNEL_7;
 static esp_adc_cal_characteristics_t adc_chars;
