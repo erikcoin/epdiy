@@ -5,7 +5,7 @@
 
 #include "epdiy.h"
 #include <M5GFX.h>
-#include "miniz.h"
+#include "rom/miniz.h"
 #include <math.h>
 #include <stdio.h>
 #include <string.h>
