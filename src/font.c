@@ -4,7 +4,7 @@
 #include <esp_log.h>
 
 #include "epdiy.h"
-#include <M5GFX.h>
+#include "M5GFX.h"
 #include "rom/miniz.h"
 #include <math.h>
 #include <stdio.h>
